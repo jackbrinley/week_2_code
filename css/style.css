@@ -1,0 +1,249 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	opacity: 0.9;
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button {
+	border-radius: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #033048;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container {
+	max-width: 90%;
+ 	margin: 0 auto;
+ 	padding:30px 0;
+ 	width: 1024px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+/*INTRO STYLES*/
+header {
+	position: absolute;
+}
+
+h1 {
+	font-weight: 800;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	color: white;
+}
+.intro {
+	/*top could be bottom in background css selector*/
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	color: white;
+	height: 440px;
+	margin:0;
+	padding: 0;
+	padding-top:40px;
+	text-align: center;
+}
+
+
+.intro h2, .intro button {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.intro h2 {
+	font-weight: 400;
+}
+
+.intro button {
+	background-color: #f9e42e;
+	color: #121212;
+	padding: 7px;
+}
+
+.intro a {
+	font-size: 14px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-weight: 800;
+} 
+
+/*BENEFITS STYLES*/
+
+.benefits {
+	background-color: #f0efef;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 30%;
+}
+
+.benefits h4 {
+	font-weight: 600;
+	font-size: 20px;
+	color: #033048
+}
+
+.benefits :not(h4) {
+	color: #606161;
+	font-weight: 300;
+}
+
+.benefits ul {
+	margin-bottom: 0;
+	padding-bottom: 30px;
+}
+
+/*Testimonial STYLES*/
+
+.testimonial {
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	min-height: 225px;
+	color: white;
+	text-align: center;
+	padding-right: 15%;
+	padding-left: 15%;
+	text-shadow: 2px 2px black;
+}
+
+.testimonial p {
+	font-weight: 300;
+	font-style: italic;
+	max-width: 400px;
+	margin:0 auto;
+	margin-bottom: 30px;
+}
+
+.testimonial span {
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+
+/*SIGN UP STYLES*/
+
+.sign_up {
+	background: #f9e42e;
+	background-size: cover;
+	color: white;
+	border: 0;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+
+}
+
+.sign_up div{
+	padding: 0;
+}
+
+.sign_up button {
+	background-color: #033048;
+	border: 5px;
+	padding: 7px;
+}
+
+.sign_up button a {
+	color: white;
+	font-size:14px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-weight: 800;
+	text-shadow: 2px 2px black;
+} 
+
+/*FOOTER*/
+
+footer {
+	background-color: #121212;
+	text-align: center;
+	opacity:1.0;
+	text-shadow: 2px 2px black;
+}
+
+footer h3 {
+	color: #f9e42e;
+	font-size:26px;
+}
+
+footer ul {
+	padding: 0px;
+}
+
+footer ul li{
+	display: inline;
+	padding: 20px;
+}
+
+i {
+	color: white;
+	font-size: 30px;
+	/*display:inline-block;*/
+	/*height:20px;*/
+	/*full disclosure, i couldn't do the font-size thing or inline-block till during class */
+}
+
+.copyright {
+	font-weight: 400;
+	color: white;
+	margin:0;
+	padding:0;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
