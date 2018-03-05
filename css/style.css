@@ -393,12 +393,13 @@ div.ad_unit {
 	width:100%;
 	height:400px;
 	background-color: white;
-	text-align: center;
+	text-align: center;	
+	margin-top: 10px;
 }
 
-div.ad_unit h5 {
-	padding-top: 10px;
-	padding-left:10px;
+div.ad_unit img {
+	width:100%;
+	height:100%;
 }
 
 aside ul {
