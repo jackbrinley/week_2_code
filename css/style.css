@@ -85,18 +85,23 @@ header {
 .index nav {
 /*	position: absolute;*/
 	float:left;
-	background-color: red;
-	color: white;
+	/*background-color: red;*/
+	color: #f9e42e;
 	width: 20%;
 }
 
 header nav ul li {
 	display: inline;
+	color: #f9e42e;
 }
 
-header nav ul li:last-child {
-	color:blue;
+header nav ul li a {
+	display: inline;
+	color: #f9e42e;
+}
 
+.index header nav ul li:not(:last-child) {
+	display: none;
 }
 
 
@@ -296,7 +301,8 @@ header.blog ul {
 
 header.blog ul li {
 	margin:0;
-	padding:5px;
+	padding:10px;
+	font-size: 14px;
 }
 
 header.blog ul li a {
@@ -339,6 +345,7 @@ main.column p::first-letter {
 	padding-right: 4px;
 	padding-top: 0;
 	margin-top: 0;
+
 }
 
 main.column a {
@@ -352,28 +359,62 @@ hr {
 }
 
 main img {
-	max-width: 100%;
+	width: 100%;
 	height:auto;
+}
+
+main {
+	padding-bottom: 50px;
 }
 
 /*Aside Column*/
 
 aside.column {
-	width:32%;
+	width:27%;
 	color: #033048;
+	padding-right: 5%;
+}
+
+aside.column ul {
+	font-size: 14px;
+}
+
+.about_relaxr p {
+	margin:0;
+	font-size: 14px;
+}
+
+.learn_more {
+	font-weight: 800;
+	font-size: 14px;
 }
 
 div.ad_unit {
-	width:60%;
+	width:100%;
 	height:400px;
 	background-color: white;
+	text-align: center;
 }
 
-div.ad_unit:before {
-	content: " ";
+div.ad_unit h5 {
+	padding-top: 10px;
+	padding-left:10px;
 }
 
+aside ul {
+	list-style-type:none;
+	color:color: #606161;
+	position: relative;
+	right:40px;
+}
 
+aside ul li {
+	color: #606161;
+}
+
+aside p {
+	color: #606161;
+}
 
 
 /*blog sign up*/
